@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  background-color: #66CCFF;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.input{
+  width: 60%;
+  padding: 10px 20px;
+  margin: 2px 0;
+  box-sizing: border-box;
+}
+#button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
