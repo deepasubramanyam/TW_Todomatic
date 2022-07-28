@@ -26,7 +26,7 @@ class CompleteItem extends React.Component {
     return (
       <ul style={style} onClick={this.handleClick.bind(this)}>
         {this.props.item.text}
-        <button id="button" onClick={() => this.delete(this.props.item.key)}>Do/Redo</button>
+        <button id="button" onClick={() => this.delete(this.props.item.key)}>Done/Redo</button>
       </ul>
     );
   }
